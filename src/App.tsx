@@ -1,4 +1,4 @@
-import { DataTableDemo } from "./components/Payment/TableData";
+import { DataTableDemo } from "./components/Provider/ProviderList/TableData";
 function App() {
   return (
     <>
