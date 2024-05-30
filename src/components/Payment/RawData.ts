@@ -1,39 +1,27 @@
 export type Payment = {
-    id: string
-    amount: number
-    status: "pending" | "processing" | "success" | "failed"
-    email: string
-  }
+  id: string;
+  name: string;
+  joiningDate: string;
+  providerType: string;
+  contactNumber: string;
+  status: "active" | "pending" | "inactive";
+};
 
 export const data: Payment[] = [
-    {
-      id: "m5gr84i9",
-      amount: 316,
-      status: "success",
-      email: "ken99@yahoo.com",
-    },
-    {
-      id: "3u1reuv4",
-      amount: 242,
-      status: "success",
-      email: "Abe45@gmail.com",
-    },
-    {
-      id: "derv1ws0",
-      amount: 837,
-      status: "processing",
-      email: "Monserrat44@gmail.com",
-    },
-    {
-      id: "5kma53ae",
-      amount: 874,
-      status: "success",
-      email: "Silas22@gmail.com",
-    },
-    {
-      id: "bhqecj4p",
-      amount: 721,
-      status: "failed",
-      email: "carmella@hotmail.com",
-    },
-  ]
+  {
+    id: "ADSF35",
+    name: "Harris",
+    joiningDate: "May 28, 2024",
+    providerType: "Company",
+    contactNumber: "01-12345",
+    status: 'active',
+  },
+  {
+    id: "ADSF35",
+    name: "Bob",
+    joiningDate: "May 29, 2024",
+    providerType: "Freelance",
+    contactNumber: "01-123456",
+    status: 'inactive',
+  }
+];
