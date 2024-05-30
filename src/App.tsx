@@ -1,4 +1,4 @@
-import DemoPage from "./components/Payment/Page"
+import DemoPage from "./components/Payment/TableData"
 function App() {
 
   return (
