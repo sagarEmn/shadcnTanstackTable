@@ -37,6 +37,7 @@ import {
 } from "@/components/ui/table"
 
 import { data, Payment } from "./RawData"
+import { columns } from "./Columns"
 
 export function DataTableDemo() {
   const [sorting, setSorting] = React.useState<SortingState>([])
